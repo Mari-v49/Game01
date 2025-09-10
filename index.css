@@ -20,7 +20,28 @@ height: 100%;
 
 }
 .d2{
-width: 13%;
+width: 100%;
   display: flex;
   justify-content: space-around;
+}
+.input{
+
+  width: 55%;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: blueviolet;
+}
+.input:hover{
+
+  border-color: blueviolet;
+
+}
+
+@media screen and (max-widh:640px) {
+  
+.input{
+
+  width: 75%;
+}
+
 }
